@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý bảo hành – ADMIN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            color: #0b3c78;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+        th {
+            background: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h1>TRANG QUẢN LÝ BẢO HÀNH (ADMIN)</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Serial</th>
+            <th>Công ty khách hàng</th>
+            <th>SĐT</th>
+            <th>Người nhận</th>
+            <th>Ngày kích hoạt</th>
+            <th>Ngày hết hạn</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ROWS}}
+    </tbody>
+</table>
+
+</body>
+</html>

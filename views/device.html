@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Kích hoạt bảo hành</title>
+</head>
+<body>
+
+<h1>KÍCH HOẠT BẢO HÀNH</h1>
+
+<form method="POST" action="/activate">
+
+    <label>Serial thiết bị</label><br>
+    <input type="text" name="serial" value="DH500-001" readonly><br><br>
+
+    <label>Tên công ty khách hàng</label><br>
+    <input type="text" name="company" required><br><br>
+
+    <label>Số điện thoại</label><br>
+    <input type="text" name="phone" required><br><br>
+
+    <label>Người nhận</label><br>
+    <input type="text" name="receiver" required><br><br>
+
+    <label>Ngày nhận</label><br>
+    <input type="date" name="received_date" required><br><br>
+
+    <button type="submit">
+        XÁC NHẬN KÍCH HOẠT BẢO HÀNH
+    </button>
+
+</form>
+
+</body>
+</html>
